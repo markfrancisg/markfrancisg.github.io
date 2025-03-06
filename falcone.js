@@ -183,7 +183,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                     time: totalTime.toFixed(2)
                 });
     
-                window.location.href = `result.php?${params.toString()}`;
+                window.location.href = `result.html?${params.toString()}`;
     
             } catch (error) {
                 console.error("Error finding Falcone:", error);
